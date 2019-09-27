@@ -1,6 +1,6 @@
-# AIsda
+# AIsda v0.1
 #### Fish recognition using AI
-by Prince Javier, Bridge 360 AI
+Prince Javier, Bridge 360 AI
 
 ## A bit of history
 
