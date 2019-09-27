@@ -157,7 +157,7 @@ We tested the model on a different scene taken from Youtube. The model correctly
 Moving forward, we will train on more fish species in more varied environments.
 We will also experiment on various architectures and hyperparameters based on the YOLO model and find what best predicts fish.
 
-Our vision is a reliable fish recognition software that will be used to make monitor fish populations scalable across the country.
+Our vision is a reliable fish recognition software that will be used to monitor fish populations scalable across the country.
 
 ## Special Thanks
 
