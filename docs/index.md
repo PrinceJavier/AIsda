@@ -31,7 +31,7 @@ Meanwhile, 15 billion trees are cut each year. This is equivalent to forests the
   <img src = 'https://live.staticflickr.com/3726/33470628350_bd16d224e1_b.jpg' height="300">
 </p>
 
-Fish, are important players in ecosystems. They are food sources for many species down the food chain like birds, seagulls, polar bears, and humans. In the Philippines, more than 50% of our animal protein intake comes from fish. They also play a role in enriching coral reefs with nutrients for them to thrive. Coral reefs are important habitats for marine animals. Coral reefs in the Philippines, in particular, are the most biodiverse in the world.
+Fish are important players in ecosystems. They are food sources for many species down the food chain like birds, seagulls, polar bears, and humans. In the Philippines, more than 50% of our animal protein intake comes from fish. They also play a role in enriching coral reefs with nutrients for them to thrive. Coral reefs are important habitats for marine animals. Coral reefs in the Philippines, in particular, are the most biodiverse in the world.
 
 However, fish populations are now declining due to overfishing and climate change. Their numbers have already halved since 1970. It is thus important that we restore and conserve fish populations. We don’t want to tip the balance of ecosystems on which we rely on.
 
