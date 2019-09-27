@@ -27,11 +27,11 @@ An estimated of 200-2000 species go extinct each year.
 
 Meanwhile, 15 billion trees are cut each year. This is equivalent to forests the area of three football fields every second.
 
-Fish, are important players in ecosystems. They are food sources for many species down the food chain like birds, seagulls, polar bears, and humans. In the Philippines, more than 50% of our animal protein intake comes from fish. They also play a role in enriching coral reefs with nutrients for them to thrive. Coral reefs are important habitats for marine animals. Coral reefs in the Philippines, in particular, are the most biodiverse in the world.
-
 <p align='center'>
   <img src = 'https://live.staticflickr.com/3726/33470628350_bd16d224e1_b.jpg' height="300">
 </p>
+
+Fish, are important players in ecosystems. They are food sources for many species down the food chain like birds, seagulls, polar bears, and humans. In the Philippines, more than 50% of our animal protein intake comes from fish. They also play a role in enriching coral reefs with nutrients for them to thrive. Coral reefs are important habitats for marine animals. Coral reefs in the Philippines, in particular, are the most biodiverse in the world.
 
 However, fish populations are now declining due to overfishing and climate change. Their numbers have already halved since 1970. It is thus important that we restore and conserve fish populations. We don’t want to tip the balance of ecosystems on which we rely on.
 
@@ -40,7 +40,17 @@ While fish in the oceans have been declining, AI research, especially in the fie
 Image recognition, in particular, has seen a leap in performance in 2012 when Alex Krizhevsky and his team unveiled a deep convolutional network called AlexNet. In 2015, Microsoft’s AI beat humans in object identification.
 
 <p align='center'>
-  <img src = 'https://live.staticflickr.com/3726/33470628350_bd16d224e1_b.jpg' height="300">
+  <img src = 'alexnet.png' height="300">
 </p>
+
+> Our question is how can we use these advancing AI technologies to help in conserving fish in the oceans?
+
+<p align='center'>
+  <img src = 'https://origin-apps-pifsc.fisheries.noaa.gov/qrb/2011_10/img/school_of_nenue_med.jpg' height="300">
+</p>
+
+There are over 30,000 fish species identified so far. Currently, auditing of fish entails divers and manually counting and identifying fish. With the sheer number of fish and large swaths of coral reefs, manual auditing is not scalable. If we can train an AI to identify and count fish from photos and videos, then we can automate and scale auditing using photos captured from underwater cameras. We can expand the scope of audit spatially and in time. This will not replace manual audits by divers but will rather augment them.
+
+UP Marine Science Institute recently unveiled ARAICoBeH (A Rapid Assessment Instrument for Coastal Benthic Habitats) to capture images of underwater habitats. We can tap them to train an AI on their images to automate counting and identification of marine life.
 
 
