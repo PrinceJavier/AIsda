@@ -6,10 +6,6 @@ by Prince Javier, Bridge 360 AI
 
 Hundreds of thousands of years ago, people have already been impacting wild animals and plants. Species dying off is not a recent phenomenon. And our capacity to change landscapes and animal populations have been made so easy with technology such as fire.
 
-<p align='center'>
-  <img src = 'https://images.unsplash.com/photo-1483917841983-f83104f9ffa5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=761&q=80' height="300">
-</p>
-
 It’s no coincidence that large animals have gone extinct the moment modern humans have intruded into their territory. Humans have been impacting the earth ever since.
 
 Woolly mammoths have been killed off by humans just four thousands of years ago. Neither is it coincidence that giant sloths of Australia have suddenly gone extinct at the same time modern humans stepped foot on the continent. 
