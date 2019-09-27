@@ -156,12 +156,11 @@ A total of 700+ butterflyfish, 600+ blue tang surgeonfish, 2000+ damselfish were
   <img src = 'Aisda-gif.gif' height="300">
 </p>
 
-This is a video showing the prediction of our quick model on the test set. The model is promising in that it is able to identify and count fish correctly most of the time.
+This is a video showing the prediction of our quick model on the test set. The model is promising in that it is able to identify and count fish correctly most of the time. 
 
 Currently, this is just a proof of concept and the capacity to predict is limited to this particular scene and three species of fish.
 
-We tested the model on a different scene taken from Youtube.
-The model correctly predicts the fish species but misses creating bounding boxes on the fish. This is due to the limited data the model was trained on.
+We tested the model on a different scene taken from Youtube. The model correctly predicts the fish species but misses creating bounding boxes on the fish. This is due to the limited data the model was trained on.
 
 <p align='center'>
   <img src = 'fish_test_1.gif' height="300">
