@@ -61,7 +61,7 @@ CNN was inspired by the brain’s visual system located in the visual cortex. Li
 
 For example, signals for circles stimulate a set of neurons for circles, while signals for lines simulate another set of neurons for lines. These shapes and lines that make up an image are called features. Models for various features in the image overlap with each other until you form the entire image. That is what inspired the CNN architecture.
 
-CNN is an automatic way of creating these “filters” very much like polarized filters in a camera. The objective is to extract features from the image that when taken together serve as a DNA of the image. Use filters to decompose and image into its constituent features which then become the image’s DNA.
+CNN is an automatic way of creating these “filters” very much like polarized filters in a camera. The objective is to extract features from the image that when taken together serve as a DNA of the image.
 
 Here is an example of the features extracted from an image. Each box is a filter for a specific feature. Some filters find circles, some find lines and others boxes. In CNN terms, these filters are called convolution layers.
 
