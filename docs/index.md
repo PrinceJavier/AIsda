@@ -75,6 +75,71 @@ While neurons are models of the world imprinted in our brains. So these models f
 
 CNN is an automatic way of creating these “filters” very much like polarized filters in a camera. The objective is to extract features from the image that when taken together serve as a DNA of the image. Use filters to decompose and image into its constituent features which then become the image’s DNA.
 
-Here is an example of the features extracted from an image. Each box is a filter for a specific feature. Some filters find circles, some find lines and others boxes. In CNN terms, these filters are called convolutional layers.
+Here is an example of the features extracted from an image. Each box is a filter for a specific feature. Some filters find circles, some find lines and others boxes. In CNN terms, these filters are called convolution layers.
+
+<p align='center'>
+  <img src = 'filters.png' height="300">
+</p>
+
+Here’s an illustration of a CNN architecture. The input is an image. The output is the label of that image, which in this case is a robot. The filters are each of the boxes in between the input and the output. The way this works is an image passes through many filters that select certain features. These features cumulatively make up a feature map, which again is the DNA of the image. We can then use this DNA to identify the image.
+
+<p align='center'>
+  <img src = 'https://upload.wikimedia.org/wikipedia/commons/6/63/Typical_cnn.png' height="300">
+</p>
+
+Initially, the filters are random and no feature is extracted from an image. But by showing the model many examples of images, CNN automatically finds the optimal filters that will best identify objects from those images.
+
+Once we have a trained model, the next question is how do we find an object in an image?
+
+<p align='center'>
+  <img src = 'clownfish-gif-bruteforce.gif' height="300">
+</p>
+
+One way to do it is to have a box scan an image from left to right and then top-down. We can then run each scan in our CNN model and try to predict what’s in the image.
+
+Most of the time, there will be no object in the box, but we will keep scanning until an object fits inside the box.
+
+The problem with this approach is that it's a brute force approach. We will use a lot of computation scanning and running each scan in our CNN model.
+
+## YOLO
+
+A new, faster approach is YOLO. YOLO, in this case, doesn’t stand for You Only Live Once but rather You Only Look Once.
+Published in 2015, this is hundreds of times faster than the brute force approach. Because the model literally looks at all potential boxes once.
+
+Many improvements have been incorporated in the model ever since. In this project, we used the YOLO v2 algorithm published in December 2016.
+
+YOLO v2 works this way: first, the image is divided into a grid, shown here by the color green. In our case, we divided the image into a 3X3 grid equivalent to 9 cells. For each cell, the model predicts n bounding boxes. In our simplified example, we predicted two bounding boxes for each cell. Finally, the model predicts the object in each bounding box with a certain confidence. 
+
+<p align='center'>
+  <img src = 'clownfish-gif-yolo.gif' height="300">
+</p>
+
+In detail, YOLO predicts the x and y coordinates of the center, the width, and height of each bounding box, and the probability that an object exists in a box. Finally, if an object exists in the box, the model predicts the probability the object belongs to a class. 
+
+All in all, if we follow the math, the model is trained to predict five bounding box properties plus the number of classes in our dataset.
+
+<p align='center'>
+  <img src = 'how yolo works.png' height="300">
+</p>
+
+The confidence of a box is the likelihood it contains an object. If it exceeds a threshold, we retain that bounding box and we identify the object.
+
+Because you only look once, YOLO is hundreds of times faster than competing models and can identify thousands of objects in real-time. This makes it perfect for applications that require counting many objects in an image over long periods of time.
+In our project, we wanted to see a proof of concept of using YOLO for quick fish counting and identification.
+
+## AIsda
+
+<p align='center'>
+  <img src = 'how yolo works.png' height="300">
+</p>
+
+As a proof of concept, we used footage of fish we captured in an Ocean Park.
+We then split the footage into training and test set. The first 75% of the footage was used for training, while the remaining 25% was used for the test.
+
+To improve performance, we needed to increase the number of training data. We doubled the training data by adding flipped images. All in all, we used 226 images for training. Each fish in each image was manually annotated with their bounding box coordinates, dimensions, and fish species.
+
+The baseline YOLO v2 model has 19 convolutional layers, which we mentioned earlier are the filters. In our case, we trained on a smaller YOLO model with only 9 convolutional layers. We built up our model over pre-trained weights that were trained using the Visual Object Challenge 2012.
+
+
 
 
