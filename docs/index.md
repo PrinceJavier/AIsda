@@ -10,11 +10,6 @@ It’s no coincidence that large animals have gone extinct the moment modern hum
 
 Woolly mammoths have been killed off by humans just four thousands of years ago. Neither is it coincidence that giant sloths of Australia have suddenly gone extinct at the same time modern humans stepped foot on the continent. 
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Woolly_mammoth.jpg/800px-Woolly_mammoth.jpg" height="200" />
-  <img src="https://www.nps.gov/whsa/learn/nature/images/Ground_Sloth.jpg?maxwidth=1200&maxheight=1200&autorotate=false" height="200" /> 
-</p>
-
 ## Mass extinction
 
 Today, we have advanced so much that we have started a mass extinction event akin to what happened 66 million years ago.
