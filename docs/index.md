@@ -59,9 +59,7 @@ The state of the art in image recognition is a deep learning architecture called
 
 CNN was inspired by the brain’s visual system located in the visual cortex. Light passes through our eyes and get focused on our retina which then converts those signals into electrochemical signals that our brain can process. Each type of signal stimulates certain neurons. 
 
-For example, signals for circles stimulate a set of neurons for circles, while signals for lines simulate another set of neurons for lines. These shapes and lines that make up an image are called features. 
-
-While neurons are models of the world imprinted in our brains. So these models for various features in the image overlap with each other until you form the entire image. That is what inspired the CNN architecture.
+For example, signals for circles stimulate a set of neurons for circles, while signals for lines simulate another set of neurons for lines. These shapes and lines that make up an image are called features. Models for various features in the image overlap with each other until you form the entire image. That is what inspired the CNN architecture.
 
 CNN is an automatic way of creating these “filters” very much like polarized filters in a camera. The objective is to extract features from the image that when taken together serve as a DNA of the image. Use filters to decompose and image into its constituent features which then become the image’s DNA.
 
