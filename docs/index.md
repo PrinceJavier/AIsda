@@ -2,7 +2,7 @@
 #### Fish recognition using AI
 by Prince Javier
 
-Let me start with a bit of history. 
+## A bit of history
 
 Hundreds of thousands of years ago, people have already been impacting wild animals and plants. Species dying off is not a recent phenomenon. And our capacity to change landscapes and animal populations have been made so easy with technology such as fire.
 
@@ -19,6 +19,8 @@ Woolly mammoths have been killed off by humans just four thousands of years ago.
   <img src="https://www.nps.gov/whsa/learn/nature/images/Ground_Sloth.jpg?maxwidth=1200&maxheight=1200&autorotate=false" height="200" /> 
 </p>
 
+## Mass extinction
+
 Today, we have advanced so much that we have started a mass extinction event akin to what happened 66 million years ago.
 
 Our machines like fishing ships, tree cutters, and guns have made killing much more efficient. Our industries and use of fossil fuels have generated so much greenhouse gases to the point of altering the world’s climate. We have invented a material called plastic that doesn’t degrade, goes to our oceans and traps marine life.
@@ -26,6 +28,8 @@ Our machines like fishing ships, tree cutters, and guns have made killing much m
 An estimated of 200-2000 species go extinct each year.
 
 Meanwhile, 15 billion trees are cut each year. This is equivalent to forests the area of three football fields every second.
+
+## Fish are important
 
 <p align='center'>
   <img src = 'https://live.staticflickr.com/3726/33470628350_bd16d224e1_b.jpg' height="300">
@@ -37,20 +41,40 @@ However, fish populations are now declining due to overfishing and climate chang
 
 While fish in the oceans have been declining, AI research, especially in the fields of deep learning, has been gaining traction in the past few years. 
 
+## Trends in AI
+
 Image recognition, in particular, has seen a leap in performance in 2012 when Alex Krizhevsky and his team unveiled a deep convolutional network called AlexNet. In 2015, Microsoft’s AI beat humans in object identification.
 
 <p align='center'>
   <img src = 'alexnet.png' height="300">
 </p>
 
-> Our question is how can we use these advancing AI technologies to help in conserving fish in the oceans?
+**Our question is how can we use these advancing AI technologies to help in conserving fish in the oceans?**
+
+There are over 30,000 fish species identified so far. Currently, auditing of fish entails divers and manually counting and identifying fish. With the sheer number of fish and large swaths of coral reefs, manual auditing is not scalable. If we can train an AI to identify and count fish from photos and videos, then we can automate and scale auditing using photos captured from underwater cameras. We can expand the scope of audit spatially and in time. This will not replace manual audits by divers but will rather augment them.
 
 <p align='center'>
   <img src = 'https://origin-apps-pifsc.fisheries.noaa.gov/qrb/2011_10/img/school_of_nenue_med.jpg' height="300">
 </p>
 
-There are over 30,000 fish species identified so far. Currently, auditing of fish entails divers and manually counting and identifying fish. With the sheer number of fish and large swaths of coral reefs, manual auditing is not scalable. If we can train an AI to identify and count fish from photos and videos, then we can automate and scale auditing using photos captured from underwater cameras. We can expand the scope of audit spatially and in time. This will not replace manual audits by divers but will rather augment them.
-
 UP Marine Science Institute recently unveiled ARAICoBeH (A Rapid Assessment Instrument for Coastal Benthic Habitats) to capture images of underwater habitats. We can tap them to train an AI on their images to automate counting and identification of marine life.
+
+## State-of-the-art in image recognition
+
+<p align='center'>
+  <img src = 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Activated_Visual_Cortex_of_Normal_Brain_Versus_Blind_Person%27s_Brain.svg' height="300">
+</p>
+
+The state of the art in image recognition is a deep learning architecture called convolutional neural networks or CNN. This architecture is most apt for our problem of fish recognition.
+
+CNN was inspired by the brain’s visual system located in the visual cortex. Light passes through our eyes and get focused on our retina which then converts those signals into electrochemical signals that our brain can process. Each type of signal stimulates certain neurons. 
+
+For example, signals for circles stimulate a set of neurons for circles, while signals for lines simulate another set of neurons for lines. These shapes and lines that make up an image are called features. 
+
+While neurons are models of the world imprinted in our brains. So these models for various features in the image overlap with each other until you form the entire image. That is what inspired the CNN architecture.
+
+CNN is an automatic way of creating these “filters” very much like polarized filters in a camera. The objective is to extract features from the image that when taken together serve as a DNA of the image. Use filters to decompose and image into its constituent features which then become the image’s DNA.
+
+Here is an example of the features extracted from an image. Each box is a filter for a specific feature. Some filters find circles, some find lines and others boxes. In CNN terms, these filters are called convolutional layers.
 
 
