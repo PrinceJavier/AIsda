@@ -1,6 +1,6 @@
 # AIsda
 #### Fish recognition using AI
-by Prince Javier
+by Prince Javier, Bridge 360 AI
 
 ## A bit of history
 
@@ -127,10 +127,10 @@ The confidence of a box is the likelihood it contains an object. If it exceeds a
 Because you only look once, YOLO is hundreds of times faster than competing models and can identify thousands of objects in real-time. This makes it perfect for applications that require counting many objects in an image over long periods of time.
 In our project, we wanted to see a proof of concept of using YOLO for quick fish counting and identification.
 
-## AIsda
+## Method
 
 <p align='center'>
-  <img src = 'how yolo works.png' height="300">
+  <img src = 'model flowchart.png' height="300">
 </p>
 
 As a proof of concept, we used footage of fish we captured in an Ocean Park.
@@ -139,6 +139,42 @@ We then split the footage into training and test set. The first 75% of the foota
 To improve performance, we needed to increase the number of training data. We doubled the training data by adding flipped images. All in all, we used 226 images for training. Each fish in each image was manually annotated with their bounding box coordinates, dimensions, and fish species.
 
 The baseline YOLO v2 model has 19 convolutional layers, which we mentioned earlier are the filters. In our case, we trained on a smaller YOLO model with only 9 convolutional layers. We built up our model over pre-trained weights that were trained using the Visual Object Challenge 2012.
+
+We selected only three species for training: the blue tang surgeonfish, damselfish, and butterflyfish.
+
+<p align='center'>
+  <img src = 'species.png' height="300">
+</p>
+
+With the help of volunteers, each image in the training set was manually annotated using the online tool makesense.ai and a custom python script. The output was an XML file for each image that contains the bounding box coordinates, width, height, and fish species.
+
+A total of 700+ butterflyfish, 600+ blue tang surgeonfish, 2000+ damselfish were annotated in 200 images.
+
+## AIsda
+
+<p align='center'>
+  <img src = 'Aisda-gif.gif' height="300">
+</p>
+
+This is a video showing the prediction of our quick model on the test set. The model is promising in that it is able to identify and count fish correctly most of the time.
+
+Currently, this is just a proof of concept and the capacity to predict is limited to this particular scene and three species of fish.
+
+We tested the model on a different scene taken from Youtube.
+The model correctly predicts the fish species but misses creating bounding boxes on the fish. This is due to the limited data the model was trained on.
+
+<p align='center'>
+  <img src = 'fish_test_1.gif' height="300">
+</p>
+
+Moving forward, we will train on more fish species in more varied environments.
+We will also experiment on various architectures and hyperparameters based on the YOLO model and find what best predicts fish.
+
+Our vision is a reliable fish recognition software that will be used to make monitor fish populations scalable across the country.
+
+## Special Thanks
+
+We would like to give special thanks to our volunteers: Frances, Reynier, and Kevin for annotating fish images.
 
 
 
