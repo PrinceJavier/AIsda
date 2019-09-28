@@ -159,13 +159,8 @@ We will also experiment on various architectures and hyperparameters based on th
 
 Our vision is a reliable fish recognition software that will be used to monitor fish populations scalable across the country.
 
-## Special Thanks
+## Acknowledgements
 
 We would like to give special thanks to our volunteers: Frances Claravall, Reynier Tasico, and Kevin Kaw for annotating fish images. Thanks to Kathy Gavile for her advice on the fish problem.
 
-## Tensorflow implementation of YOLO
-https://github.com/thtrieu/darkflow
-
-
-
-
+Tensorflow implementation of YOLO: https://github.com/thtrieu/darkflow
