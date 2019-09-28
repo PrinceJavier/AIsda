@@ -161,7 +161,10 @@ Our vision is a reliable fish recognition software that will be used to monitor 
 
 ## Special Thanks
 
-We would like to give special thanks to our volunteers: Frances, Reynier, and Kevin for annotating fish images.
+We would like to give special thanks to our volunteers: Frances Claravall, Reynier Tasico, and Kevin Kaw for annotating fish images. Thanks to Kathy Gavile for her advice on the fish problem.
+
+## Tensorflow implementation of YOLO
+https://github.com/thtrieu/darkflow
 
 
 
