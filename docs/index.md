@@ -161,6 +161,8 @@ Our vision is a reliable fish recognition software that will be used to monitor 
 
 ## Acknowledgements
 
+We would like to thank Microsoft for the cloud computing grant through their AI for Earth Grant.
+
 We would like to give special thanks to our volunteers: Frances Claravall, Reynier Tasico, and Kevin Kaw for annotating fish images. Thanks to Kathy Gavile for her advice on the fish problem.
 
 Tensorflow implementation of YOLO: https://github.com/thtrieu/darkflow
